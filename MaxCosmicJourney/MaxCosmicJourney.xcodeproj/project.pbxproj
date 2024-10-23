@@ -86,6 +86,7 @@
 		FA7AD6AF2BAF406A001FE1F5 /* MaxCosmicJourney */ = {
 			isa = PBXGroup;
 			children = (
+				FA416A872CC9937200FCA401 /* README.md */,
 				FAB294712BC4967100FBC6AE /* Model */,
 				FAB294722BC4967D00FBC6AE /* View */,
 				FAB294732BC4968C00FBC6AE /* Controller */,
@@ -130,7 +131,6 @@
 				FA7AD6CE2BB0D716001FE1F5 /* PageController.swift */,
 				FA7AD6CC2BAF60C2001FE1F5 /* HomePageController.swift */,
 				FA7AD6CA2BAF55CF001FE1F5 /* PageViewController.swift */,
-				FA416A872CC9937200FCA401 /* README.md */,
 				FA7AD6C62BAF4326001FE1F5 /* NavigationController.swift */,
 			);
 			path = Controller;
