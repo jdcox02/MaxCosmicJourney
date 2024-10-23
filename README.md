@@ -39,7 +39,7 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
    cd MaxCosmicJourney
    ```
    
-2. Clone the repository:
+2. Open the project in Xcode:
    ```bash
    open MaxCosmicJourney.xcodeproj
     ```
@@ -49,12 +49,3 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 2. **Zoom into Planets**: Tap on planets like Mercury and Mars to zoom in and explore them in detail.
 3. **Play a Mini Game**: Tap "Play a Game" at the end of the story to launch a fun orbit simulation using `SpriteKit`.
 4. **Access Parental Content**: Draw a circle to unlock access to the "About the Author" section through the parental gate.
-
-### Technologies
-
-- **Swift** & **Objective-C**: Demonstrates proficiency in both modern and legacy iOS languages.
-- **UIKit** & **SwiftUI**: Combines traditional UIKit elements with modern SwiftUI for a flexible user interface.
-- **SpriteKit**: Used for creating interactive, physics-based games, adding a fun, educational aspect to the app.
-- **AVFoundation**: Powers the text-to-speech capabilities for narrating the story, making the app accessible and engaging.
-- **UserDefaults**: Manages user preferences, such as the "Read To Me" mode and app launch counts, ensuring a personalized user experience.
-
