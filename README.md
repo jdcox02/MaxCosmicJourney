@@ -39,7 +39,8 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
    cd MaxCosmicJourney
    ```
    
-2. Clone the repository:
+2. Open the project in Xcode:
+3. 
    ```bash
    open MaxCosmicJourney.xcodeproj
     ```
