@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yfP-sc-f0b">
+    <device id="ipad10_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ObjectiveC Settings View Controller-->
+        <scene sceneID="GZy-72-0IC">
+            <objects>
+                <viewController id="bp0-Lo-cZ1" customClass="ObjectiveCSettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="deW-UM-K6X">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="780"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reading Options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsV-PK-dkA">
+                                <rect key="frame" x="307" y="339" width="126" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QFQ-uT-2S4">
+                                <rect key="frame" x="282" y="382" width="177" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Read to me"/>
+                                    <segment title="Tap to Play"/>
+                                </segments>
+                                <connections>
+                                    <action selector="readToMeOptionUpdated:" destination="bp0-Lo-cZ1" eventType="valueChanged" id="N1D-mc-NI7"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Q1z-wC-Uiy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="readToMeOptionSegmentedControl" destination="QFQ-uT-2S4" id="zvs-XW-f29"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QPw-1q-4y6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2813" y="-105"/>
+        </scene>
+        <!--Home Page Controller-->
+        <scene sceneID="8lD-SP-TpX">
+            <objects>
+                <viewController id="AcW-yY-A5h" customClass="HomePageController" customModule="MaxCosmicJourney" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="szz-6N-CPg">
+                        <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NM-lD-zxC">
+                                <rect key="frame" x="526" y="419.5" width="128" height="35"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Start Reading"/>
+                                <connections>
+                                    <segue destination="pbL-rM-quS" kind="show" identifier="" id="F7n-bE-trK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mlb-et-oxs">
+                                <rect key="frame" x="20" y="60" width="155" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="About the Author"/>
+                                <connections>
+                                    <action selector="aboutAuthorTapped:" destination="AcW-yY-A5h" eventType="touchUpInside" id="8Il-a2-hRn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Voe-8L-Bdx">
+                                <rect key="frame" x="1073" y="60" width="87" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Settings"/>
+                                <connections>
+                                    <segue destination="bp0-Lo-cZ1" kind="presentation" id="qtx-7V-P8j"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Written by: Josh Cox" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z15-Pi-0ZW">
+                                <rect key="frame" x="511.5" y="346" width="157.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Max's Cosmic Journey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ug-5t-clk">
+                                <rect key="frame" x="85" y="218" width="1010" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rAE-HC-0ZF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="z15-Pi-0ZW" firstAttribute="top" secondItem="0ug-5t-clk" secondAttribute="bottom" constant="8" symbolic="YES" id="EIQ-rZ-gGd"/>
+                            <constraint firstItem="0ug-5t-clk" firstAttribute="centerX" secondItem="rAE-HC-0ZF" secondAttribute="centerX" id="FMl-3r-hSV"/>
+                            <constraint firstItem="rAE-HC-0ZF" firstAttribute="trailing" secondItem="Voe-8L-Bdx" secondAttribute="trailing" constant="20" id="UNq-d2-wTe"/>
+                            <constraint firstItem="rAE-HC-0ZF" firstAttribute="top" secondItem="Voe-8L-Bdx" secondAttribute="top" constant="14" id="Z7e-wt-R2y"/>
+                            <constraint firstItem="rAE-HC-0ZF" firstAttribute="top" secondItem="Mlb-et-oxs" secondAttribute="top" constant="14" id="e2v-B3-edt"/>
+                            <constraint firstItem="6NM-lD-zxC" firstAttribute="top" secondItem="z15-Pi-0ZW" secondAttribute="bottom" constant="52.5" id="nWP-GD-v7b"/>
+                            <constraint firstItem="6NM-lD-zxC" firstAttribute="centerX" secondItem="rAE-HC-0ZF" secondAttribute="centerX" id="qYG-sg-ws0"/>
+                            <constraint firstItem="Mlb-et-oxs" firstAttribute="leading" secondItem="rAE-HC-0ZF" secondAttribute="leading" constant="20" id="t2Z-AZ-P9w"/>
+                            <constraint firstItem="z15-Pi-0ZW" firstAttribute="centerX" secondItem="rAE-HC-0ZF" secondAttribute="centerX" id="u0h-sy-AgL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XSn-Ew-md3"/>
+                    <connections>
+                        <outlet property="aboutAuthorButton" destination="Mlb-et-oxs" id="afW-mR-TyM"/>
+                        <outlet property="bookTitle" destination="0ug-5t-clk" id="Ivf-dW-OJh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QaQ-qW-nXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2095.9322033898306" y="-104.63414634146341"/>
+        </scene>
+        <!--Book View Controller-->
+        <scene sceneID="R7C-fg-ZZY">
+            <objects>
+                <viewController id="pbL-rM-quS" customClass="BookViewController" customModule="MaxCosmicJourney" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Am-3R-xII">
+                        <rect key="frame" x="0.0" y="0.0" width="1180" height="820"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dj0-D1-N87">
+                                <rect key="frame" x="20" y="113" width="1140" height="644"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyS-zg-mgx">
+                                <rect key="frame" x="1109" y="766" width="51" height="34"/>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="arrowshape.right.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="pbL-rM-quS" eventType="touchUpInside" id="Lk5-lO-Wn4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vca-hy-oTB">
+                                <rect key="frame" x="20" y="767" width="51" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="arrowshape.left.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="prevButtonTapped:" destination="pbL-rM-quS" eventType="touchUpInside" id="No5-Of-2Hr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yq1-Tx-5ig">
+                                <rect key="frame" x="565" y="766" width="50" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <imageReference key="image" image="play.circle.fill" catalog="system" symbolScale="large"/>
+                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="playButtonTapped:" destination="pbL-rM-quS" eventType="touchUpInside" id="ZN8-3Y-Nkw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9X-MK-H0a">
+                                <rect key="frame" x="31" y="74" width="55" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <imageReference key="image" image="house.fill" catalog="system" symbolScale="large"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="homeButtonTapped:" destination="pbL-rM-quS" eventType="touchUpInside" id="kmF-Wf-61J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5Gt-ru-PiF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vca-hy-oTB" firstAttribute="bottom" secondItem="5Gt-ru-PiF" secondAttribute="bottom" constant="1" id="DwV-Ft-hGt"/>
+                            <constraint firstItem="Yq1-Tx-5ig" firstAttribute="centerX" secondItem="5Gt-ru-PiF" secondAttribute="centerX" id="LJg-H7-Lc9"/>
+                            <constraint firstItem="5Gt-ru-PiF" firstAttribute="trailing" secondItem="eyS-zg-mgx" secondAttribute="trailing" constant="20" id="ToN-JX-sXG"/>
+                            <constraint firstItem="5Gt-ru-PiF" firstAttribute="bottom" secondItem="Yq1-Tx-5ig" secondAttribute="bottom" id="Vw3-3Q-HJ2"/>
+                            <constraint firstItem="vca-hy-oTB" firstAttribute="leading" secondItem="5Gt-ru-PiF" secondAttribute="leading" constant="20" id="YL4-Nu-2X7"/>
+                            <constraint firstItem="5Gt-ru-PiF" firstAttribute="bottom" secondItem="eyS-zg-mgx" secondAttribute="bottom" id="dRS-uw-vfM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PaO-Mi-sCw"/>
+                    <connections>
+                        <outlet property="containerView" destination="dj0-D1-N87" id="oYh-OJ-ldV"/>
+                        <outlet property="homeButton" destination="M9X-MK-H0a" id="lP8-Wq-vCg"/>
+                        <outlet property="nextButton" destination="eyS-zg-mgx" id="1C1-u7-fE1"/>
+                        <outlet property="playButton" destination="Yq1-Tx-5ig" id="Hg5-Vn-MW1"/>
+                        <outlet property="prevButton" destination="vca-hy-oTB" id="2Qh-sm-Qi2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8BH-EU-NCg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2095.9322033898306" y="819.51219512195121"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lId-UI-TKj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yfP-sc-f0b" customClass="NavigationController" customModule="MaxCosmicJourney" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UPE-9u-EtU">
+                        <rect key="frame" x="0.0" y="24" width="1180" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AcW-yY-A5h" kind="relationship" relationship="rootViewController" id="K7A-uS-zhR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0oH-df-KLT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1339.7560975609756" y="-104.23728813559323"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrowshape.left.fill" catalog="system" width="128" height="104"/>
+        <image name="arrowshape.right.fill" catalog="system" width="128" height="104"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="play.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

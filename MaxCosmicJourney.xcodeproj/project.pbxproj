@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA416A882CC9937F00FCA401 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA416A872CC9937200FCA401 /* README.md */; };
+		FA7AD6B12BAF406A001FE1F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AD6B02BAF406A001FE1F5 /* AppDelegate.swift */; };
+		FA7AD6B32BAF406A001FE1F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AD6B22BAF406A001FE1F5 /* SceneDelegate.swift */; };
+		FA7AD6BA2BAF406C001FE1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7AD6B92BAF406C001FE1F5 /* Assets.xcassets */; };
+		FA7AD6BD2BAF406C001FE1F5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FA7AD6BC2BAF406C001FE1F5 /* Base */; };
+		FA7AD6C72BAF4326001FE1F5 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AD6C62BAF4326001FE1F5 /* NavigationController.swift */; };
+		FA7AD6CB2BAF55CF001FE1F5 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AD6CA2BAF55CF001FE1F5 /* PageViewController.swift */; };
+		FA7AD6CD2BAF60C2001FE1F5 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AD6CC2BAF60C2001FE1F5 /* HomePageController.swift */; };
+		FA7AD6CF2BB0D716001FE1F5 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AD6CE2BB0D716001FE1F5 /* PageController.swift */; };
+		FA7AD6D12BB1DE87001FE1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7AD6D02BB1DE87001FE1F5 /* Main.storyboard */; };
+		FA7AD6D82BB20714001FE1F5 /* AboutAuthorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7AD6D72BB20714001FE1F5 /* AboutAuthorViewController.xib */; };
+		FA7AD6D92BB20714001FE1F5 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7AD6D62BB20714001FE1F5 /* AboutAuthorViewController.swift */; };
+		FAB294612BB8B9D000FBC6AE /* ObjectiveCSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB294602BB8B9D000FBC6AE /* ObjectiveCSettingsViewController.m */; };
+		FAB294632BB8E77700FBC6AE /* ParentalGateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB294622BB8E77700FBC6AE /* ParentalGateViewController.swift */; };
+		FAB294652BC0CFB200FBC6AE /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB294642BC0CFB200FBC6AE /* BookViewController.swift */; };
+		FAB294692BC2180500FBC6AE /* Narrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB294682BC2180500FBC6AE /* Narrator.swift */; };
+		FAB2946B2BC3573200FBC6AE /* EndOfBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2946A2BC3573200FBC6AE /* EndOfBookView.swift */; };
+		FAB2946D2BC4580900FBC6AE /* OrbitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2946C2BC4580900FBC6AE /* OrbitScene.swift */; };
+		FAB2946F2BC45B4E00FBC6AE /* SpriteKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2946E2BC45B4E00FBC6AE /* SpriteKitContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA416A872CC9937200FCA401 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA7AD6AD2BAF406A001FE1F5 /* MaxCosmicJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxCosmicJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7AD6B02BAF406A001FE1F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7AD6B22BAF406A001FE1F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA7AD6B92BAF406C001FE1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7AD6BC2BAF406C001FE1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA7AD6BE2BAF406C001FE1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7AD6C62BAF4326001FE1F5 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		FA7AD6CA2BAF55CF001FE1F5 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		FA7AD6CC2BAF60C2001FE1F5 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		FA7AD6CE2BB0D716001FE1F5 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		FA7AD6D02BB1DE87001FE1F5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FA7AD6D62BB20714001FE1F5 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		FA7AD6D72BB20714001FE1F5 /* AboutAuthorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutAuthorViewController.xib; sourceTree = "<group>"; };
+		FAB294582BB8B3FD00FBC6AE /* MaxCosmicJourney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaxCosmicJourney-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAB2945F2BB8B9D000FBC6AE /* ObjectiveCSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCSettingsViewController.h; sourceTree = "<group>"; };
+		FAB294602BB8B9D000FBC6AE /* ObjectiveCSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCSettingsViewController.m; sourceTree = "<group>"; };
+		FAB294622BB8E77700FBC6AE /* ParentalGateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalGateViewController.swift; sourceTree = "<group>"; };
+		FAB294642BC0CFB200FBC6AE /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		FAB294682BC2180500FBC6AE /* Narrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Narrator.swift; sourceTree = "<group>"; };
+		FAB2946A2BC3573200FBC6AE /* EndOfBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndOfBookView.swift; sourceTree = "<group>"; };
+		FAB2946C2BC4580900FBC6AE /* OrbitScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitScene.swift; sourceTree = "<group>"; };
+		FAB2946E2BC45B4E00FBC6AE /* SpriteKitContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitContainer.swift; sourceTree = "<group>"; };
+		FAB294702BC48B8600FBC6AE /* spacetext.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = spacetext.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7AD6AA2BAF406A001FE1F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7AD6A42BAF406A001FE1F5 = {
+			isa = PBXGroup;
+			children = (
+				FA7AD6AF2BAF406A001FE1F5 /* MaxCosmicJourney */,
+				FA7AD6AE2BAF406A001FE1F5 /* Products */,
+				FAB294582BB8B3FD00FBC6AE /* MaxCosmicJourney-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7AD6AE2BAF406A001FE1F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7AD6AD2BAF406A001FE1F5 /* MaxCosmicJourney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7AD6AF2BAF406A001FE1F5 /* MaxCosmicJourney */ = {
+			isa = PBXGroup;
+			children = (
+				FAB294712BC4967100FBC6AE /* Model */,
+				FAB294722BC4967D00FBC6AE /* View */,
+				FAB294732BC4968C00FBC6AE /* Controller */,
+				FA7AD6B02BAF406A001FE1F5 /* AppDelegate.swift */,
+				FA7AD6B22BAF406A001FE1F5 /* SceneDelegate.swift */,
+				FA7AD6B92BAF406C001FE1F5 /* Assets.xcassets */,
+				FA7AD6BE2BAF406C001FE1F5 /* Info.plist */,
+			);
+			path = MaxCosmicJourney;
+			sourceTree = "<group>";
+		};
+		FAB294712BC4967100FBC6AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAB294682BC2180500FBC6AE /* Narrator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAB294722BC4967D00FBC6AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2946A2BC3573200FBC6AE /* EndOfBookView.swift */,
+				FAB2946E2BC45B4E00FBC6AE /* SpriteKitContainer.swift */,
+				FA7AD6D72BB20714001FE1F5 /* AboutAuthorViewController.xib */,
+				FAB2946C2BC4580900FBC6AE /* OrbitScene.swift */,
+				FA7AD6D02BB1DE87001FE1F5 /* Main.storyboard */,
+				FA7AD6BB2BAF406C001FE1F5 /* LaunchScreen.storyboard */,
+				FAB294702BC48B8600FBC6AE /* spacetext.ttf */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAB294732BC4968C00FBC6AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAB294602BB8B9D000FBC6AE /* ObjectiveCSettingsViewController.m */,
+				FAB2945F2BB8B9D000FBC6AE /* ObjectiveCSettingsViewController.h */,
+				FAB294622BB8E77700FBC6AE /* ParentalGateViewController.swift */,
+				FAB294642BC0CFB200FBC6AE /* BookViewController.swift */,
+				FA7AD6D62BB20714001FE1F5 /* AboutAuthorViewController.swift */,
+				FA7AD6CE2BB0D716001FE1F5 /* PageController.swift */,
+				FA7AD6CC2BAF60C2001FE1F5 /* HomePageController.swift */,
+				FA7AD6CA2BAF55CF001FE1F5 /* PageViewController.swift */,
+				FA416A872CC9937200FCA401 /* README.md */,
+				FA7AD6C62BAF4326001FE1F5 /* NavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7AD6AC2BAF406A001FE1F5 /* MaxCosmicJourney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7AD6C12BAF406C001FE1F5 /* Build configuration list for PBXNativeTarget "MaxCosmicJourney" */;
+			buildPhases = (
+				FA7AD6A92BAF406A001FE1F5 /* Sources */,
+				FA7AD6AA2BAF406A001FE1F5 /* Frameworks */,
+				FA7AD6AB2BAF406A001FE1F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxCosmicJourney;
+			productName = MaxCosmicJourney;
+			productReference = FA7AD6AD2BAF406A001FE1F5 /* MaxCosmicJourney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7AD6A52BAF406A001FE1F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FA7AD6AC2BAF406A001FE1F5 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+				};
+			};
+			buildConfigurationList = FA7AD6A82BAF406A001FE1F5 /* Build configuration list for PBXProject "MaxCosmicJourney" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7AD6A42BAF406A001FE1F5;
+			productRefGroup = FA7AD6AE2BAF406A001FE1F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7AD6AC2BAF406A001FE1F5 /* MaxCosmicJourney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7AD6AB2BAF406A001FE1F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7AD6D12BB1DE87001FE1F5 /* Main.storyboard in Resources */,
+				FA7AD6BA2BAF406C001FE1F5 /* Assets.xcassets in Resources */,
+				FA416A882CC9937F00FCA401 /* README.md in Resources */,
+				FA7AD6BD2BAF406C001FE1F5 /* Base in Resources */,
+				FA7AD6D82BB20714001FE1F5 /* AboutAuthorViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7AD6A92BAF406A001FE1F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB294632BB8E77700FBC6AE /* ParentalGateViewController.swift in Sources */,
+				FA7AD6CB2BAF55CF001FE1F5 /* PageViewController.swift in Sources */,
+				FA7AD6CF2BB0D716001FE1F5 /* PageController.swift in Sources */,
+				FAB294692BC2180500FBC6AE /* Narrator.swift in Sources */,
+				FAB294612BB8B9D000FBC6AE /* ObjectiveCSettingsViewController.m in Sources */,
+				FA7AD6B12BAF406A001FE1F5 /* AppDelegate.swift in Sources */,
+				FAB2946D2BC4580900FBC6AE /* OrbitScene.swift in Sources */,
+				FA7AD6D92BB20714001FE1F5 /* AboutAuthorViewController.swift in Sources */,
+				FAB2946B2BC3573200FBC6AE /* EndOfBookView.swift in Sources */,
+				FAB2946F2BC45B4E00FBC6AE /* SpriteKitContainer.swift in Sources */,
+				FA7AD6C72BAF4326001FE1F5 /* NavigationController.swift in Sources */,
+				FA7AD6CD2BAF60C2001FE1F5 /* HomePageController.swift in Sources */,
+				FAB294652BC0CFB200FBC6AE /* BookViewController.swift in Sources */,
+				FA7AD6B32BAF406A001FE1F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA7AD6BB2BAF406C001FE1F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7AD6BC2BAF406C001FE1F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7AD6BF2BAF406C001FE1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7AD6C02BAF406C001FE1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7AD6C22BAF406C001FE1F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AA8APU3CU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaxCosmicJourney/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exampleteam.MaxCosmicJourney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MaxCosmicJourney-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FA7AD6C32BAF406C001FE1F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3AA8APU3CU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaxCosmicJourney/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exampleteam.MaxCosmicJourney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MaxCosmicJourney-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7AD6A82BAF406A001FE1F5 /* Build configuration list for PBXProject "MaxCosmicJourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7AD6BF2BAF406C001FE1F5 /* Debug */,
+				FA7AD6C02BAF406C001FE1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7AD6C12BAF406C001FE1F5 /* Build configuration list for PBXNativeTarget "MaxCosmicJourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7AD6C22BAF406C001FE1F5 /* Debug */,
+				FA7AD6C32BAF406C001FE1F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7AD6A52BAF406A001FE1F5 /* Project object */;
+}
