@@ -36,11 +36,11 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 
    ```bash
    git clone https://github.com/yourusername/MaxCosmicJourney.git
-   cd MaxCosmicJourney
    ```
    
 2. Open the project in Xcode:
    ```bash
+   cd MaxCosmicJourney
    open MaxCosmicJourney.xcodeproj
     ```
 ### Usage
@@ -49,3 +49,12 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 2. **Zoom into Planets**: Tap on planets like Mercury and Mars to zoom in and explore them in detail.
 3. **Play a Mini Game**: Tap "Play a Game" at the end of the story to launch a fun orbit simulation using `SpriteKit`.
 4. **Access Parental Content**: Draw a circle to unlock access to the "About the Author" section through the parental gate.
+
+## Contact
+
+For questions or feedback, please reach out to:
+
+- **Name**: Josh Cox
+- **Email**: [jdcox02@gmail.com](mailto:jdcox02@gmail.com)
+- **GitHub**: [jdcox02](https://github.com/jdcox02)
+- **LinkedIn**: [jdcox02](https://www.linkedin.com/in/jdcox02)
