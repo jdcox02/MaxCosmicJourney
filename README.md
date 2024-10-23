@@ -59,3 +59,12 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 - **AVFoundation**: Powers the text-to-speech capabilities for narrating the story, making the app accessible and engaging.
 - **UserDefaults**: Manages user preferences, such as the "Read To Me" mode and app launch counts, ensuring a personalized user experience.
 
+## Contact
+
+For questions or feedback, please reach out to:
+
+- **Name**: Josh Cox
+- **Email**: [jdcox02@gmail.com](mailto:jdcox02@gmail.com)
+- **GitHub**: [jdcox02](https://github.com/jdcox02)
+- **LinkedIn**: [jdcox02](https://www.linkedin.com/in/jdcox02)
+
