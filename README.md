@@ -10,7 +10,7 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 
 - **Narrated Story**: Each page of Max's journey is narrated using AVFoundation's text-to-speech capabilities, making the story accessible to younger audiences.
 - **Interactive Pages**: Tap on planets and explore closer details through zoomable images.
-- **Mini Games**: Play a game where you can add planets into orbit around the sun, using `SpriteKit` for a fun, interactive experience.
+- **Mini Game**: Play a game where you can add planets into orbit around the sun, using `SpriteKit` for a fun, interactive experience.
 - **Parental Gate**: A simple drawing challenge is required to access parental content like the "About the Author" page.
 - **Customizable Experience**: Users can adjust narration preferences to control when the app reads text aloud.
 
