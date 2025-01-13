@@ -35,7 +35,7 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/MaxCosmicJourney.git
+   git clone https://github.com/jdcox02/MaxCosmicJourney
    ```
    
 2. Open the project in Xcode:
