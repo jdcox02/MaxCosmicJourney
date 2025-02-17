@@ -4,7 +4,7 @@
 
 ## Overview
 
-MaxCosmicJourney is designed for kids and families, offering a mix of educational content and playful interactions. Users can navigate through pages of Max's space adventure, tap on planets for a closer look, and even play mini-games. The app also includes a parental gate to ensure secure access to certain content.
+MaxCosmicJourney is designed for kids and families, offering a mix of educational content and playful interactions. Users can navigate through pages of Max's space adventure, tap on planets for a closer look, and even play a mini-game. The app also includes a parental gate to ensure secure access to certain content.
 
 ## Features
 
