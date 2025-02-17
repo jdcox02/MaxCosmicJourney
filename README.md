@@ -19,7 +19,9 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 #### **Welcome Screen**  
 ![Welcome Screen](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/welcome.png)  
 
-#### **Customize Narration Settings**  
+#### **Customize Narration Settings** 
+Users can choose to have narration play automatically when turning each page or require a tap to play. Narration is powered by **AVFoundation's text-to-speech**, and as each word is read aloud, it is **emboldened on the screen** to help children read along with the narration.  
+ 
 ![Settings Screen](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/settings.png) 
 
 #### **Max Discovers a Telescope**  
