@@ -10,7 +10,7 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 
 - **Narrated Story**: Each page of Max's journey is narrated using AVFoundation's text-to-speech capabilities, making the story accessible to younger audiences.
 - **Interactive Pages**: Tap on planets and explore closer details through zoomable images.
-- **Mini Games**: Play a game where you can add planets into orbit around the sun, using `SpriteKit` for a fun, interactive experience.
+- **Mini Game**: Play a game where you can add planets into orbit around the sun, using `SpriteKit` for a fun, interactive experience.
 - **Parental Gate**: A simple drawing challenge is required to access parental content like the "About the Author" page.
 - **Customizable Experience**: Users can adjust narration preferences to control when the app reads text aloud.
 
@@ -35,12 +35,12 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/MaxCosmicJourney.git
-   cd MaxCosmicJourney
+   git clone https://github.com/jdcox02/MaxCosmicJourney
    ```
    
-2. Clone the repository:
+2. Open the project in Xcode:
    ```bash
+   cd MaxCosmicJourney
    open MaxCosmicJourney.xcodeproj
     ```
 ### Usage
@@ -50,11 +50,11 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 3. **Play a Mini Game**: Tap "Play a Game" at the end of the story to launch a fun orbit simulation using `SpriteKit`.
 4. **Access Parental Content**: Draw a circle to unlock access to the "About the Author" section through the parental gate.
 
-### Technologies
+## Contact
 
-- **Swift** & **Objective-C**: Demonstrates proficiency in both modern and legacy iOS languages.
-- **UIKit** & **SwiftUI**: Combines traditional UIKit elements with modern SwiftUI for a flexible user interface.
-- **SpriteKit**: Used for creating interactive, physics-based games, adding a fun, educational aspect to the app.
-- **AVFoundation**: Powers the text-to-speech capabilities for narrating the story, making the app accessible and engaging.
-- **UserDefaults**: Manages user preferences, such as the "Read To Me" mode and app launch counts, ensuring a personalized user experience.
+For questions or feedback, please reach out to:
 
+- **Name**: Josh Cox
+- **Email**: [jdcox02@gmail.com](mailto:jdcox02@gmail.com)
+- **GitHub**: [jdcox02](https://github.com/jdcox02)
+- **LinkedIn**: [jdcox02](https://www.linkedin.com/in/jdcox02)
