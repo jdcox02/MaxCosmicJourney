@@ -26,12 +26,16 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 ![Max in the Attic](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/attic1.png)  
 
 #### **Exploring Mercury**  
+Users can tap to zoom in and explore details of Mercury’s cratered surface.
+  
 ![Mercury](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/mercury.png)  
 
 #### **Exploring Mars**  
 ![Mars](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/mars.png)  
 
-#### **Exploring Venus**  
+#### **Exploring Venus**
+This screen features an animated spaceship moving across the screen as Max learns about Venus.
+    
 ![Venus](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/venus.png)
 
 #### **🛡️ Parental Controls**  
