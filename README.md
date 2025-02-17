@@ -14,6 +14,47 @@ MaxCosmicJourney is designed for kids and families, offering a mix of educationa
 - **Parental Gate**: A simple drawing challenge is required to access parental content like the "About the Author" page.
 - **Customizable Experience**: Users can adjust narration preferences to control when the app reads text aloud.
 
+### **📖 Story Screens**  
+
+#### **Welcome Screen**  
+![Welcome Screen](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/welcome.png)  
+
+#### **Customize Narration Settings**  
+![Settings Screen](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/settings.png) 
+
+#### **Max Discovers a Telescope**  
+![Max in the Attic](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/attic1.png)  
+
+#### **Exploring Mercury**  
+![Mercury](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/mercury.png)  
+
+#### **Exploring Mars**  
+![Mars](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/mars.png)  
+
+#### **Exploring Venus**  
+![Venus](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/venus.png)
+
+#### **🛡️ Parental Controls**  
+To access the **About the Author** section, users must complete a simple **drawing challenge** to verify adult access.  
+
+![Parental Gate](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/parentalgate.png)  
+
+#### **About the Author Page**  
+![About the Author](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/aboutauthor.png)  
+
+#### **🏁 End of the Journey**  
+At the end of the story, users can **restart the book or play a game** to extend the fun!  
+
+![End Screen](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/end.png)  
+
+#### **🕹️ Mini-Game: Orbital Simulator**  
+The app includes a **physics-based game** where players can **add planets into orbit** around the sun. This feature, built using `SpriteKit`, enhances the interactive experience.  
+
+![SpriteKit Mini-Game](https://raw.githubusercontent.com/jdcox02/MaxCosmicJourney/main/images/spritekit_minigame.png)  
+
+---
+
+
 ## Knowledge and Skills Demonstrated
 
 - **Framework Integration**: Combines **UIKit** and **SwiftUI** to create a seamless user interface, showcasing versatility in using different UI frameworks.
